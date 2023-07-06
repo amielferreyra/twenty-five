@@ -1,12 +1,13 @@
 import React from 'react';
+import './home.scss'
 
 function NavBar(){
     return(
-        <header>
-            <div class="logo">
-                <a href="/"><img src="imagenes/top-logo.png" alt="logo" /></a>
+        <header className='head'>
+            <div className="logo">
+                <a href="/"><img src="../../../components/imagenes/top-logo.png" alt="logo" /></a>
             </div>
-            <nav class="navbar">
+            <nav className="navbar">
                 <a href="#inicio">Home</a>
                 <a href="#nosotros">About</a>
                 <a href="#productos">Products</a>

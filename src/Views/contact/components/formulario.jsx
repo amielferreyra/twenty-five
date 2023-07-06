@@ -11,9 +11,9 @@ export const Formulario = () => {
 
     return (
         <section>
-            <div class="contact-wrapper" id="contacto">
-                <div class="contact-form">
-                    <h1 class="titulo">Get in touch <br/>
+            <div className="contact-wrapper" id="contacto">
+                <div className="contact-form">
+                    <h1 className="titulo">Get in touch <br/>
                     <span>We are hiring!</span></h1>
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div>
@@ -32,7 +32,7 @@ export const Formulario = () => {
                             40 caracteres</p>}
                         </div>
 
-                        <div class="separador">
+                        <div className="separador">
                             <label for="Email">Email</label>
                             <input
                                 type="email"
@@ -47,7 +47,7 @@ export const Formulario = () => {
                             {errors.email?.type === 'maxLength' && <p>El campo e-mail debe tener menos de
                             20 caracteres</p>}
                         </div>
-                        <div class="separador">
+                        <div className="separador">
                             <label for="Telefono">Phone</label>
                             <input
                                 type="text"
@@ -62,7 +62,7 @@ export const Formulario = () => {
                             {errors.phone?.type === 'maxLength' && <p>El campo phone debe tener menos de
                             12 caracteres</p>}
                         </div>
-                        <div class="separador-mensaje">
+                        <div className="separador-mensaje">
                             <label for="Mensaje">Message</label>
                             <input
                                 type="text-area"
@@ -84,7 +84,7 @@ export const Formulario = () => {
                 </div>
             </div>
             <div>
-                <img class="image-form" src="/imagenes/contact-image.png" alt=""/>
+                <img className="image-form" src="" alt=""/>
             </div>
 
         </section>

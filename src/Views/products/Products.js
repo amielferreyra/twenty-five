@@ -1,11 +1,12 @@
 import React from 'react'
+import './components/products.scss'
 
 function Products(){
     return(
-        <section class="sau" id="productos">
+        <section className="sau" id="productos">
 
-            <div class="backgr">
-                <div class="box">
+            <div className="backgr">
+                <div className="box">
                     <h3>Sed ut perspiciatis</h3>
                     <h1>Nemo Enim</h1>
                     <p>

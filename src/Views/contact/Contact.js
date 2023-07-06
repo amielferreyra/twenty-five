@@ -1,9 +1,10 @@
 import React from 'react'
-import { Formulario } from '../components/formulario'
+import { Formulario } from './components/formulario'
+import './components/contact.scss'
 
 function Contact(){
     return(
-        <section class="fondo">
+        <section>
             <Formulario/>
         </section>
     );
