@@ -1,0 +1,74 @@
+.contact-wrapper {
+    background-image: linear-gradient(to right,
+            #F2F4F1 0%,
+            #F2F4F1 75%,
+            #DCE1DA 75%,
+            #DCE1DA 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contact-form {
+        width: 471px;
+        margin-right: 99px;
+
+        .titulo{
+            font-family: normal normal 600 39px/45px Poppins;
+        }
+
+        span{
+            color: #E0752F;
+        }
+
+        h1 {
+            margin-bottom: 75px;
+            font-family: Poppins;
+            font-size: 39px
+        }
+
+        label {
+            font-family: Roboto;
+            font-size: 16px;
+            color: #5F6368;
+        }
+
+        form input,
+        form textarea,
+        form button {
+            border: none;
+            background: none;
+        }
+
+        form input,
+        form textarea {
+            border-bottom: 1px solid #7c7c7c;
+            width: 100%;
+        }
+
+        .separador{
+            margin-top: 31px;
+        }
+
+        .separador-mensaje{
+            margin-top: 23px;
+        }
+
+        .boton{
+            border-radius: 25px;
+            background-color: #E0752F;
+            width: 144px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-top: 8px;
+
+            .botoncito{
+                color: #ffff;
+            }
+        }
+        
+    }
+}

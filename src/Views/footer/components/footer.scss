@@ -1,0 +1,18 @@
+.foot{
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343434;
+    color: #DCE1DA;
+
+    h5{
+        font-family: Roboto;
+        font-size: 16px;
+        margin-left: 101px;
+    }
+
+    .logo{
+        margin-right: 101px;
+    }
+}
