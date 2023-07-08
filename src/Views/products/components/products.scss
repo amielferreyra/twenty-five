@@ -27,28 +27,52 @@
             color: white;
             width: 471px;
             height: 304px;
+
+            p{
+                font-family: Roboto;
+                font-size: 16px;
+                margin-left: 50px;
+                margin-top: 19.5px;
+                margin-right: 49px;
+            }
+    
+            h1{
+                font-family: Poppins;
+                font-size: 39px;
+                margin-left: 50px;
+            }
+    
+            h3{
+                font-family: Roboto;
+                font-size: 16px;
+                margin-left: 50px;
+                margin-top: 68px;
+            }
+
+            .carousel{
+                display: flex;
+                flex-direction: column;
+
+                .flex{
+                    text-align: end;
+
+                    button{
+                        background-color: #E0752F;
+                        border: #E0752F; 
+
+                    }
+
+                    .mg{
+                        margin-right: 49.3px;
+                        margin-left: 10.4px;
+                    }
+
+                }
+            }
+
+
         }
 
-        p{
-            font-family: Roboto;
-            font-size: 16px;
-            margin-left: 50px;
-            margin-top: 19.5px;
-            margin-right: 49px;
-        }
-
-        h1{
-            font-family: Poppins;
-            font-size: 39px;
-            margin-left: 50px;
-        }
-
-        h3{
-            font-family: Roboto;
-            font-size: 16px;
-            margin-left: 50px;
-            margin-top: 68px;
-        }
 
     }
 }
