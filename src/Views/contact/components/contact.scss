@@ -46,6 +46,11 @@
             width: 100%;
         }
 
+        form textarea:hover{
+            border-bottom:1px solid #E0752F;
+        }
+
+
         .separador{
             margin-top: 31px;
         }
@@ -68,6 +73,10 @@
             .botoncito{
                 color: #ffff;
             }
+        }
+
+        .mensaje-exito{
+            color: green;
         }
         
     }
