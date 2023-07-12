@@ -13,11 +13,11 @@
         width: 471px;
         margin-right: 99px;
 
-        .titulo{
+        .titulo {
             font-family: normal normal 600 39px/45px Poppins;
         }
 
-        span{
+        span {
             color: #E0752F;
         }
 
@@ -46,20 +46,20 @@
             width: 100%;
         }
 
-        form textarea:hover{
-            border-bottom:1px solid #E0752F;
+        form textarea:hover {
+            border-bottom: 1px solid #E0752F;
         }
 
 
-        .separador{
+        .separador {
             margin-top: 31px;
         }
 
-        .separador-mensaje{
+        .separador-mensaje {
             margin-top: 23px;
         }
 
-        .boton{
+        .boton {
             border-radius: 25px;
             background-color: #E0752F;
             width: 144px;
@@ -70,14 +70,72 @@
             color: white;
             margin-top: 8px;
 
-            .botoncito{
+            .botoncito {
                 color: #ffff;
             }
         }
 
-        .mensaje-exito{
-            color: green;
+        .mensaje-exito {
+            color: #E0752F;
         }
-        
+
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-wrapper {
+        flex-direction: column-reverse;
+
+        .globo{
+            width: 330px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+
+        .contact-form {
+            width: 100%;
+            margin: 0px;
+
+            h1 {
+                margin-bottom: 40px;
+                font-size: 28px;
+                margin-left: 15px;
+            }
+
+            label {
+                font-size: 14px;
+                margin-left: 15px;
+            }
+
+            form input,
+            form textarea {
+                width: 90%;
+                margin-left: 15px;
+            }
+
+            .separador,
+            .separador-mensaje {
+                margin-top: 20px;
+            }
+
+            .boton {
+                margin-top: 15px;
+                width: 120px;
+                height: 40px;
+                margin-left: 15px;
+
+                .botoncito {
+                    font-size: 14px;
+                }
+            }
+
+            .mensaje-exito {
+                margin-left: 15px;
+                font-family: Roboto;
+                font-size: 15px;
+            }
+        }
+
     }
 }

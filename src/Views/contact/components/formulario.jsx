@@ -81,7 +81,7 @@ function formulario(props) {
           </div>
   
           <div>
-            <img src={contimg} alt="" />
+            <img className='globo' src={contimg} alt="" />
           </div>
         </div>
       </section>

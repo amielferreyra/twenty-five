@@ -3,9 +3,9 @@ import './components/about.scss'
 
 function About(){
     return(
-        <section className="about" id="nosotros">
+        <section className="sobre" id="nosotros">
 
-            <div className="borde">
+            <div className="bordecito">
                 <div className="pad">
                     <h1 className="titlee">We Help Businesses<br/>
                     <span>Grow and Innovate</span></h1>
