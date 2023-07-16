@@ -4,19 +4,58 @@ import NavBar from './components/NavBar';
 
 function Home() {
     return (
-        <div className="fondo">
+        <header id='inicio'>
+
             <NavBar/>
-            <main className='header'>
-                <h2 className="title">Sed ut perspiciatis unde omnis iste natus</h2> 
-                <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-                </p>
-                <div className="btn-home">
-                    <a href="#nosotros" className="btn">Read more</a>
+
+            <div id="carouselExampleIndicators" className="carousel slide">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-            </main>
-        </div>
+                <div className="carousel-inner">
+                    <div className="carousel-item active back-first">
+                        <main className='header'>
+                            <h2 className="title">Sed ut perspiciatis unde omnis iste natus</h2>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                            </p>
+                            <div className="btn-home">
+                                <a href="#nosotros" class="btn">Read more</a>
+                            </div>
+                        </main>
+                    </div>
+                    <div className="carousel-item back-first">
+                        <main className='header'>
+                            <h2 className="title">Sed ut perspiciatis unde omnis iste natus</h2>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                            </p>
+                            <div className="btn-home">
+                                <a href="#nproductos" class="btn">Read more</a>
+                            </div>
+                        </main>
+                    </div>
+                    <div className="carousel-item back-first">
+                        <main className='header'>
+                            <h2 className="title">Sed ut perspiciatis unde omnis iste natus</h2>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                            </p>
+                            <div className="btn-home">
+                                <a href="#contactos" class="btn">Read more</a>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+
+        </header>
     );
-  }
-  
-  export default Home;
+}
+
+export default Home;

@@ -2,20 +2,38 @@ import React from 'react';
 import './home.scss'
 import logo from '../../../components/imagenes/top-logo.png'
 
-function NavBar(){
-    return(
-        <header className="head">
-            <div className="logo">
-            <a href=""><img class="imglogo" src={logo} alt="logo"/></a>
+function NavBar() {
+    return (
+        <nav className="navbar navbar-expand-lg fixed-top">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">
+                    <img src={logo} alt="" />
+                </a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#inicio">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#nosotros">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#productos">Products</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#servicios">Service</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#contacto">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <nav className="navbar">
-                <a href="#inicio">Home</a>
-                <a href="#nosotros">About</a>
-                <a href="#productos">Products</a>
-                <a href="#servicios">Services</a>
-                <a href="#contacto">Contact</a>
-            </nav>
-        </header>
+        </nav>
     );
 }
 

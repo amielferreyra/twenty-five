@@ -1,87 +1,27 @@
-.fondo{
-  height: 100vh;
-  background-image: url(../../../components/imagenes/slider-1.png);
+.navbar {
+  height: 14vh;
+  border-bottom: 1px solid #E0752F;
+  background-color: #343434bd;
 
-  .head {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      height: 14vh;
-      width: 100%;
-      border-bottom: 1px solid #E0752F;
-
-      
-      .logo {
-          margin-left: 20px;
-          .imglogo {
-              max-width: 128.5px;
-              margin-right: 390PX;
-          }
-      }
-
-      .navbar{
-
-          a{
-              display: inline-block;
-              padding: 20px 20px;
-              text-decoration: none;
-              font-size: 20px;
-              color: white;
-              font-family: 'Roboto', sans-serif;
-          }
-
-          a:hover {
-              color: #E0752F;
-          }
-      }
-
+  .navbar-brand {
+    margin-left: 100px;
   }
 
-  .header{
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      color: #ffff;
+  .navbar-collapse {
+    flex-grow: 0 !important;
 
-      .title{
-          font: normal normal 600 48px/48px Poppins;
-          margin-top: 158px;
-          margin-left: 101px;
-          width: 554px;
-          height: 115px;
+    .nav-item {
+      margin: 1rem;
+
+      a {
+        color: white;
+        font-size: 20px;
       }
 
-      P{
-          font-family: 'Roboto', sans-serif;
-          margin-top: 30px;
-          margin-left: 101px;
-          width: 343px;
-          height: 42px;
+      a:hover {
+        color: #E0752F;
       }
-
-      .btn-home{
-          margin-top: 30px;
-          margin-left: 101px;
-          width: 144px;
-          height: 48px;
-          border-radius: 25px;
-          background-color: #E0752F;
-          display: flex;
-          text-align: center;
-          justify-content: center;
-
-          .btn{
-              margin-top: 6px;
-              font-family: 'Roboto', sans-serif;
-              color: white;
-              text-decoration: none;
-          }
-      }
-
-      .btn:hover{
-          background: none;
-      }
-      
+    }
   }
 
 }
@@ -89,42 +29,93 @@
 
 
 
+.back-first {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../../components/imagenes/slider-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #ffff;
+
+    .title {
+      font: normal normal 600 48px/48px Poppins;
+      margin-top: 158px;
+      margin-left: 101px;
+      width: 554px;
+      height: 115px;
+    }
+
+    P {
+      font-family: 'Roboto', sans-serif;
+      margin-top: 30px;
+      margin-left: 101px;
+      width: 343px;
+      height: 42px;
+    }
+
+    .btn-home {
+      margin-top: 30px;
+      margin-left: 101px;
+      width: 144px;
+      height: 48px;
+      border-radius: 25px;
+      background-color: #E0752F;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+
+      .btn {
+        margin-top: 6px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+
 
 @media only screen and (max-width: 600px) {
-  .fondo {
+
+  .imglogo {
+    max-width: 100px;
+    margin-right: 0;
+  }
+
+
+
+  .navbar-collapse {
+    background-color: #343434;
+    margin-right: none !important;
+
+    ul {
+      text-align: center;
+    }
+
+    a {
+      font-size: white;
+      font-size: 6px;
+    }
+
+    a:hover {
+      color: #E0752F;
+      border: 1px solid #E0752F;
+    }
+  }
+
+  .back-first {
     background-position: center;
-
-
-
-    .head {
-      flex-direction: column;
-      align-items:flex-start;
-      height: fit-content; 
-
-      .logo {
-        margin-left: 10px;
-        .imglogo {
-          max-width: 100px;
-          margin-right: 0;
-        }
-      }
-
-      .navbar{
-
-        a{
-            text-decoration: none;
-            color: white;
-            font-size: 6px;
-        }
-    }
-
-
-    }
 
     .header {
 
       .title {
-        margin-top: 50px;
         margin-left: 20px;
         width: 80%;
         font-size: 38px;
