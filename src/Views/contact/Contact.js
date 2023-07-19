@@ -25,7 +25,7 @@ function Contact() {
     const handleSubmit = (event) => {
         event.preventDefault()
 
-        axios.post('https://jsonplaceholder.typicode.com/posts', newUser)
+        axios.post('https://25wattsanam.online/public/index.php/api/insert-personas', newUser)
         .then(
             response => {
                 setSuccess(true)

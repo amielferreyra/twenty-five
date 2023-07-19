@@ -36,7 +36,7 @@ function Home() {
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
                             </p>
                             <div className="btn-home">
-                                <a href="#nproductos" class="btn">Read more</a>
+                                <a href="#productos" class="btn">Read more</a>
                             </div>
                         </main>
                     </div>
@@ -47,7 +47,7 @@ function Home() {
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
                             </p>
                             <div className="btn-home">
-                                <a href="#contactos" class="btn">Read more</a>
+                                <a href="#contacto" class="btn">Read more</a>
                             </div>
                         </main>
                     </div>
